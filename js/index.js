@@ -1,5 +1,8 @@
+// This would make things look cleaner, but isn't widely supported yet.
 // const data = await fetch('/data.json');
 // const products = await data.json();
+
+
 fetch('/data.json')
   .then(response => response.json())
   .then(products => {
